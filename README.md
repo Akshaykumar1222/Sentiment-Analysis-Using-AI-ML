@@ -25,7 +25,7 @@ This project performs **Sentiment Analysis** to classify input text into **Posit
 
 ![Sentiment Output](visuals/output_screenshot.png)
 
-> Make sure `visuals/output_screenshot.png` exists and is committed to your repository.
+
 
 ## ⚙️ How to Run Locally
 
