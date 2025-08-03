@@ -2,15 +2,14 @@
 
 ## 📌 Overview
 
-**Sentiment Analysis** is a machine learning project that classifies text as **Positive**, **Negative**, or **Neutral**. It uses Natural Language Processing (NLP) and ML models trained on real-world datasets to analyze customer feedback, reviews, and social media content.
+This project performs **Sentiment Analysis** to classify input text into **Positive**, **Negative**, or **Neutral** categories. Using machine learning and NLP techniques, it helps extract insights from customer reviews, social media posts, or any natural language data.
 
 ## 💡 Features
 
-- Classifies text into Positive, Negative, or Neutral sentiment
-- Trained using labeled sentiment datasets
-- Cleaned and preprocessed data using NLP techniques
-- Real-time prediction using trained ML models
-- User-friendly web interface for text input
+- Text classification into three sentiment classes
+- Preprocessing using NLP (tokenization, stopword removal, etc.)
+- Machine learning model training and evaluation
+- Simple web interface for user input and prediction
 
 ## 🛠️ Tech Stack
 
@@ -18,22 +17,23 @@
 - **Scikit-learn**
 - **NLTK / SpaCy**
 - **Flask**
-- **HTML / CSS / JavaScript**
+- **HTML / CSS**
+- **Matplotlib / Seaborn**
 - **Jupyter Notebook**
-- **Matplotlib / Seaborn** for visualization
 
-## 🖼️ Project Screenshots
+## 🖼️ Project Screenshot
 
-### 🔹 Model Training & Accuracy
-![Model Training](screenshots/training_accuracy.png)
+![Sentiment Output](visuals/output_screenshot.png)
 
-### 🔹 Web App Interface
-![Web UI](screenshots/web_ui.png)
+> Make sure `visuals/output_screenshot.png` exists and is committed to your repository.
 
-### 🔹 Prediction Output
-![Prediction Output](screenshots/prediction_output.png)
+## ⚙️ How to Run Locally
 
-> 💡 Make sure the above images are stored in a folder named `screenshots/` in your repo for proper display.
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/Akshaykumar1222/sentiment-analysis-ml.git
+   cd sentiment-analysis-ml
+
 
 ## ⚙️ How to Run Locally
 
